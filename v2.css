@@ -59,7 +59,7 @@
 .v2 .header .btn--call svg { width: 18px; height: 18px; }
 .v2 .header .btn--call:hover svg { transform: none; }
 @media (max-width: 1320px) { .v2 .header .call-num { display: none; } .v2 .header .btn--call { width: 50px; padding: 0; } }
-@media (max-width: 1180px) {
+@media (max-width: 1340px) {
   .v2 .nav { display: none; }
   .v2 .menu-btn { display: grid; }
   .v2 .mobile-nav[data-open="true"] { display: block; padding-block: 8px 16px; border-top: 1px solid var(--line); }
@@ -472,3 +472,20 @@ a.tl:hover { color: var(--bronze); }
   .svc-intro .facts { grid-template-columns: 1fr 1fr; }
   .svc-intro .facts li { padding: 20px 12px 20px 0; border-left: 0 !important; padding-left: 0 !important; border-bottom: 1px solid var(--line); }
 }
+
+/* ---- price ranges (dark cost section) ---- */
+.prices { display: grid; gap: 12px; }
+.prices dl { display: grid; border-top: 1px solid rgb(255 255 255 / 0.18); }
+.prices dl > div { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 14px 0; border-bottom: 1px solid rgb(255 255 255 / 0.18); }
+.prices dt { font-size: 16px; color: rgb(255 255 255 / 0.86); }
+.prices dt a { color: inherit; text-decoration: underline; text-decoration-color: rgb(255 255 255 / 0.4); text-underline-offset: 3px; }
+.prices dd { font: 500 clamp(20px, 1.8vw, 24px)/1.2 var(--serif); color: var(--sand); white-space: nowrap; text-align: right; }
+.prices .small { color: rgb(255 255 255 / 0.78); }
+
+/* ---- owner photo caption ---- */
+.owner-photo img { object-position: 50% 30%; }
+.owner-photo figcaption { position: absolute; left: 16px; bottom: 16px; padding: 8px 14px; border-radius: 999px; background: rgb(18 40 63 / 0.82); color: #fff; font-size: 14px; }
+
+/* ---- seven-item menu: keep labels on one line ---- */
+.v2 .nav { gap: clamp(16px, 1.7vw, 30px); }
+.v2 .nav a { white-space: nowrap; letter-spacing: 0.12em; }

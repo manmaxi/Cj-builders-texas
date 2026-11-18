@@ -5,9 +5,10 @@
 
   // ZIP codes served.
   var ZIPS = {
-    '76247': 'Northlake', '76226': 'Northlake and Argyle', '76262': 'Trophy Club, Roanoke and Northlake',
-    '75022': 'Flower Mound', '75028': 'Flower Mound', '75077': 'Flower Mound and Highland Village',
-    '76248': 'Keller', '76244': 'Keller and north Fort Worth', '76092': 'Southlake', '76034': 'Colleyville'
+    '76247': 'Northlake and Justin', '76226': 'Northlake and Argyle', '76262': 'Roanoke, Trophy Club and Westlake',
+    '75022': 'Flower Mound', '75028': 'Flower Mound', '75077': 'Flower Mound and Highland Village', '75067': 'Lewisville',
+    '76092': 'Southlake', '76034': 'Colleyville', '76051': 'Grapevine', '76248': 'Keller', '76244': 'Keller and north Fort Worth',
+    '76052': 'Haslet', '76259': 'Ponder'
   };
 
   // Mobile menu
